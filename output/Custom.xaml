@@ -311,7 +311,7 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="#f06353"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
@@ -327,7 +327,7 @@
                 HorizontalAlignment="Center"
                 FontSize="13"
                 Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
+                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -502,7 +502,7 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="#f06353"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
@@ -518,7 +518,7 @@
                 HorizontalAlignment="Center"
                 FontSize="13"
                 Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
+                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -693,7 +693,7 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="#f06353"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
@@ -709,7 +709,7 @@
                 HorizontalAlignment="Center"
                 FontSize="13"
                 Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
+                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1093,7 +1093,7 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 9d26d94b"
+                               Text="By wzyaeu/kaphia | 构建版本 15ad439b"
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
