@@ -35,7 +35,7 @@
                    FontWeight="Bold"
                    VerticalAlignment="Center"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="最新周榜 第113期"/>
+                   Text="最新周榜 第113期 2026-08-04"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -1093,7 +1093,7 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 b957692d"
+                               Text="By wzyaeu/kaphia | 构建版本 9d26d94b"
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
