@@ -400,5 +400,10 @@ def init():
     b2issues()
     print('init-运行b3issues')
     b3issues()
+    
+    load_template('build_info.md',noxaml=True)
+    save_output_file(f'build_info.md',replaces(templates['build_info.md'],{
+        'build_version':BUILD_VERSION
+    }))
 
 init()
