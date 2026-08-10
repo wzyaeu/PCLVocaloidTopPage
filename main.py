@@ -47,7 +47,7 @@ def rank_status(m):
     else:
         if not (m['weeksOnBoard'] != 1 or m['firstRecordedAt'] == None or m['issueEndDate'] == None or m['firstRecordedAt'] > m['issueEndDate']):
             return 'new'
-        if m['lastRank']:
+        if m['lastRank'] != None:
             if m['rank'] > m['lastRank']:
                 return 'down'
             if m['rank'] < m['lastRank']:
