@@ -175,7 +175,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -362,7 +362,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -549,7 +549,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -736,7 +736,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -923,7 +923,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -1110,7 +1110,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -1297,7 +1297,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -1484,7 +1484,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -1671,7 +1671,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -1858,7 +1858,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2045,7 +2045,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2232,7 +2232,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2419,7 +2419,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2606,7 +2606,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2793,7 +2793,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -2980,7 +2980,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -3167,7 +3167,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -3354,7 +3354,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -3541,7 +3541,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -3728,7 +3728,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -3915,7 +3915,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -4102,7 +4102,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -4289,7 +4289,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -4476,7 +4476,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -4663,7 +4663,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -4850,7 +4850,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5037,7 +5037,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5224,7 +5224,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5411,7 +5411,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5598,7 +5598,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5785,7 +5785,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -5972,7 +5972,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -6159,7 +6159,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -6346,7 +6346,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -6533,7 +6533,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -6720,7 +6720,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -6907,7 +6907,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -7094,7 +7094,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -7281,7 +7281,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -7468,7 +7468,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -7655,7 +7655,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -7842,7 +7842,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8029,7 +8029,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8216,7 +8216,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8403,7 +8403,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8590,7 +8590,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8777,7 +8777,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -8964,7 +8964,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -9151,7 +9151,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
@@ -9338,7 +9338,7 @@
                                 HorizontalAlignment="Center"
                                 FontSize="12"
                                 Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
+                                Text="前十次数"/>
                         </StackPanel>
                         <StackPanel  Margin="3,0">
                             <TextBlock
