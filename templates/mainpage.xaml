@@ -35,7 +35,7 @@
                    FontWeight="Bold"
                    VerticalAlignment="Center"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="最新周榜 第{i}期"/>
+                   Text="最新周榜 第{i}期 {date}"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"

@@ -34,7 +34,7 @@
                 Margin="0,8"
                 ColorType="Highlight"
                 VerticalAlignment="Center"
-                Text="榜单视频"
+                Text="榜期视频"
                 EventType="打开网页"
                 EventData="https://www.bilibili.com/video/{bv}"
                 LogoScale="1"
@@ -58,7 +58,7 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="榜单"/>
+                   Text="榜单 {date}"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"

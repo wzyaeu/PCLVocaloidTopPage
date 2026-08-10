@@ -4,7 +4,7 @@ import json
 import secrets
 import requests
 import re
-from datetime import datetime
+import datetime
 
 def load_template(name, noxaml = False):
     print(f'load_template-加载模板文件-{name}')
@@ -13,6 +13,9 @@ def load_template(name, noxaml = False):
         t_path = os.path.join(BASE_PATH, 'templates', name+('' if noxaml else '.xaml'))
         with open(t_path,'r', encoding='utf-8') as f:
             templates[name] =  f.read()
+
+def delta_date(ts, d):
+    return (datetime.datetime.fromtimestamp(ts) + datetime.timedelta(days=d)).replace(tzinfo=datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d")
 
 def load_rank_template():
     load_template('rank_up')
@@ -34,17 +37,6 @@ def replaces(string: str, s: dict):
     for l, d in s.items():
         output = output.replace('{'+l+'}', str(d))
     return output
-
-def uninumber(n: int):
-    if n >= 100000000:
-        return '{:.1f}'.format(n/100000000) + '亿'
-    elif n >= 10000:
-        return '{:.1f}'.format(n/10000) + '万'
-    else:
-        return n
-    
-def nlv(s):
-    return '\\n'.join(str(s).splitlines())
 
 def rank_status(m):
     if m['specialStatus']:
@@ -74,9 +66,6 @@ def escape_xaml(text):
              .replace('"', '&quot;')
              .replace("'", '&apos;')
     )
-
-def iso_to_timestamp(iso_str):
-    return int(datetime.fromisoformat(iso_str.replace('Z', '+00:00')).timestamp())
 
 def mainpage():
     print('mainpage-开始')
@@ -123,6 +112,7 @@ def mainpage():
         ][::-1]),
         'gv': BUILD_VERSION,
         'i': b1_issues[0]['issue_id'],
+        'date': delta_date(b1_issues[0]['end_date'], 1),
         'all': f'https://vocaloid.p.kaphia.qzz.io/board1/issue_{b1_issues[0]['issue_id']}.json',
     })
     print('mainpage-保存输出文件')
@@ -181,10 +171,11 @@ def b1issues():
                     's3': m['peakRank'] if m['peakRank'] else '--',
                     's1t': '上周排名', 's2t': '在榜周数', 's3t': '最高排名',
                 }) for index, m in enumerate(music_data,start=1)
-            ]),
+            ][::-1]),
             'title': f'周榜 第{issue['issue_id']}期 {issue['year']}年第{issue['week']}周',
             'bv': issue['video_bvid'],
             'all': 'https://vocaloid.p.kaphia.qzz.io/board1/index.json',
+            'date': delta_date(issue['end_date'], 1),
         })
         save_output_file(f'board1/issue_{issue['issue_id']}.xaml',output)
         save_output_file(f'board1/issue_{issue['issue_id']}.json',json.dumps({
@@ -196,7 +187,7 @@ def b1issues():
         'title':'周榜',
         'item':''.join([
             replaces(templates['indexpage-item'],{
-                'title': f'周榜 第{issue['issue_id']}期',
+                'title': f'周榜 第{issue['issue_id']}期 {delta_date(issue['end_date'], 1)}',
                 'info': f'{issue['year']}年第{issue['week']}周',
                 'url': f'https://vocaloid.p.kaphia.qzz.io/board1/issue_{issue['issue_id']}.json',
             })
@@ -256,10 +247,11 @@ def b2issues():
                     's3': m['peakRank'] if m['peakRank'] else '--',
                     's1t': '上周排名', 's2t': '在榜周数', 's3t': '最高排名',
                 }) for index, m in enumerate(music_data,start=1)
-            ]),
+            ][::-1]),
             'title': f'传说榜 第{issue['issue_id']}期 {issue['year']}年第{issue['week']}周',
             'bv': issue['video_bvid'],
             'all': 'https://vocaloid.p.kaphia.qzz.io/board2/index.json',
+            'date': delta_date(issue['end_date'], 3),
         })
         save_output_file(f'board2/issue_{issue['issue_id']}.xaml',output)
         save_output_file(f'board2/issue_{issue['issue_id']}.json',json.dumps({
@@ -271,7 +263,7 @@ def b2issues():
         'title':'传说榜',
         'item':''.join([
             replaces(templates['indexpage-item'],{
-                'title': f'传说榜 第{issue['issue_id']}期',
+                'title': f'传说榜 第{issue['issue_id']}期 {delta_date(issue['end_date'], 3)}',
                 'info': f'{issue['year']}年第{issue['week']}周',
                 'url': f'https://vocaloid.p.kaphia.qzz.io/board2/issue_{issue['issue_id']}.json',
             })
@@ -336,10 +328,11 @@ def b3issues():
                     's3': m['peakRank'] if m['peakRank'] else '--',
                     's1t': '上周排名', 's2t': '在榜周数', 's3t': '最高排名',
                 }) for index, m in enumerate(music_data,start=1)
-            ]),
+            ][::-1]),
             'title': f'年榜 {issue['year']}年{sub_title[issue['week']]}',
             'bv': issue['video_bvid'],
             'all': 'https://vocaloid.p.kaphia.qzz.io/board3/index.json',
+            'date': f'{issue['year']}年{sub_title[issue['week']]}',
         })
         save_output_file(f'board3/issue_{issue['issue_id']}.xaml',output)
         save_output_file(f'board3/issue_{issue['issue_id']}.json',json.dumps({
@@ -400,7 +393,7 @@ def init():
     b2issues()
     print('init-运行b3issues')
     b3issues()
-    
+
     load_template('build_info.md',noxaml=True)
     save_output_file(f'build_info.md',replaces(templates['build_info.md'],{
         'build_version':BUILD_VERSION
