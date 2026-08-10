@@ -1055,7 +1055,7 @@
                               Logo="pack://application:,,,/images/Blocks/Anvil.png"
                               Title="年榜"
                               Info="年榜榜单目录"
-                              EventType="打开帮助"，
+                              EventType="打开帮助"
                               Type="Clickable"
                               EventData="https://vocaloid.p.kaphia.qzz.io/board3/index.json"/>
         </StackPanel>
@@ -1093,7 +1093,7 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 0d5ee6a1"
+                               Text="By wzyaeu/kaphia | 构建版本 b957692d"
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
