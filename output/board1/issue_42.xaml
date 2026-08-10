@@ -43,7 +43,7 @@
                 Height="35"
                 Margin="0,8"
                 VerticalAlignment="Center"
-                Text="全部期数"
+                Text="全部榜期"
                 EventType="打开帮助"
                 EventData="https://vocaloid.p.kaphia.qzz.io/board1/index.json"
                 LogoScale="1"

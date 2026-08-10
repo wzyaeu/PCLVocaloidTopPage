@@ -1040,22 +1040,22 @@
             <local:MyListItem Margin="10,2"
                               Logo="pack://application:,,,/images/Blocks/Anvil.png"
                               Title="周榜"
-                              Info="周榜目录"
+                              Info="周榜榜单目录"
                               EventType="打开帮助"
                               Type="Clickable"
                               EventData="https://vocaloid.p.kaphia.qzz.io/board1/index.json"/>
             <local:MyListItem Margin="10,2"
                               Logo="pack://application:,,,/images/Blocks/Anvil.png"
                               Title="传说榜"
-                              Info="传说榜目录"
+                              Info="传说榜榜单目录"
                               EventType="打开帮助"
                               Type="Clickable"
                               EventData="https://vocaloid.p.kaphia.qzz.io/board2/index.json"/>
             <local:MyListItem Margin="10,2"
                               Logo="pack://application:,,,/images/Blocks/Anvil.png"
                               Title="年榜"
-                              Info="年榜目录"
-                              EventType="打开帮助"
+                              Info="年榜榜单目录"
+                              EventType="打开帮助"，
                               Type="Clickable"
                               EventData="https://vocaloid.p.kaphia.qzz.io/board3/index.json"/>
         </StackPanel>
@@ -1093,7 +1093,7 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 43d20c2e"
+                               Text="By wzyaeu/kaphia | 构建版本 9dfeb938"
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
