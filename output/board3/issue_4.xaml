@@ -143,23 +143,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#50"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -334,23 +330,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#49"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -525,23 +517,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#48"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -716,23 +704,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#e6b54e"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#47"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -907,23 +891,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#46"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1098,23 +1078,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#45"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1289,23 +1265,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#e6b54e"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#44"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1480,23 +1452,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#43"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1671,23 +1639,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#42"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -1862,23 +1826,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#e6b54e"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#41"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -2053,23 +2013,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#40"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -2244,23 +2200,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#39"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -2435,23 +2387,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#38"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -2626,23 +2574,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#37"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -2817,23 +2761,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#36"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3008,23 +2948,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#35"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3199,23 +3135,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#34"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3390,23 +3322,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#33"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3581,23 +3509,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#e6b54e"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#32"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3772,23 +3696,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#31"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -3963,23 +3883,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#30"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -4154,23 +4070,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#29"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -4345,23 +4257,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#28"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -4536,23 +4444,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#27"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -4727,23 +4631,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#26"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -4918,23 +4818,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#e6b54e"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#25"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -5109,23 +5005,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#24"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -5300,23 +5192,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#23"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -5491,23 +5379,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#22"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -5682,23 +5566,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#21"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -5873,23 +5753,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#20"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -6064,23 +5940,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#19"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -6255,23 +6127,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#18"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -6446,23 +6314,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#17"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -6637,23 +6501,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#16"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -6828,23 +6688,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#15"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7019,23 +6875,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#14"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7210,23 +7062,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#13"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7401,23 +7249,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#12"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7592,23 +7436,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#b9b9b9"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#11"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="持平"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7783,23 +7623,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#10"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -7974,23 +7810,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#9"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -8165,23 +7997,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#b9b9b9"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#8"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="持平"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -8356,23 +8184,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#7"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -8547,23 +8371,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#f06353"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#6"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="下降"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -8738,23 +8558,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#5"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -8929,23 +8745,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#4"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -9120,23 +8932,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#3"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -9311,23 +9119,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#2"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
@@ -9502,23 +9306,19 @@
                 HorizontalAlignment="Right"
                         Orientation="Horizontal"
                 Grid.Column="1">
-                <Border Background="#129cff"
+                <Border Background="{DynamicResource ColorBrush3}"
         CornerRadius="25,0,0,25"
         Height="50">
     <StackPanel Margin="15,3,5,3"
                 Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
             <TextBlock
-                HorizontalAlignment="Center"
                 FontSize="25"
                 FontWeight="Bold"
                 Foreground="{DynamicResource ColorBrush8}"
                 Text="#1"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="上升"/>
         </StackPanel>
     </StackPanel>
 </Border>
