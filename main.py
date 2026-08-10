@@ -49,9 +49,9 @@ def rank_status(m):
             return 'new'
         if m['lastRank']:
             if m['rank'] > m['lastRank']:
-                return 'up'
-            if m['rank'] < m['lastRank']:
                 return 'down'
+            if m['rank'] < m['lastRank']:
+                return 'up'
             if m['rank'] == m['lastRank']:
                 return 'even'
         return 'up'
