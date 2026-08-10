@@ -1,0 +1,16 @@
+<Border Background="{DynamicResource ColorBrush3}"
+        CornerRadius="25,0,0,25"
+        Height="50">
+    <StackPanel Margin="15,3,5,3"
+                Orientation="Horizontal">
+        <StackPanel  Margin="3,0"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center">
+            <TextBlock
+                FontSize="25"
+                FontWeight="Bold"
+                Foreground="{DynamicResource ColorBrush8}"
+                Text="#{rank}"/>
+        </StackPanel>
+    </StackPanel>
+</Border>

@@ -24,6 +24,7 @@ def load_rank_template():
     load_template('rank_new')
     load_template('rank_re')
     load_template('rank_rf')
+    load_template('rank')
 
 def save_output_file(name, data):
     print(f'save_output_file-保存输出文件-{name}')
@@ -310,7 +311,7 @@ def b3issues():
                     'name_cn': escape_xaml(m['titleCn']),
                     'p': escape_xaml('/'.join([p['name'] for p in m['producers']])),
                     'v': escape_xaml('/'.join([v['name'] for v in m['vocalists']])),
-                    'rank': replaces(templates[f'rank_{rank_status(m)}'],{
+                    'rank': replaces(templates['rank'],{
                         'rank':m['rank']
                     }),
                     'rate': escape_xaml(m['rate']) if m['rate'] != None else '无',
