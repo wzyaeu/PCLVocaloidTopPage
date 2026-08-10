@@ -327,7 +327,7 @@ def b3issues():
                     's1': m['lastRank'] if m['lastRank'] else '--',
                     's2': m['weeksOnBoard'] if m['weeksOnBoard'] else '--',
                     's3': m['peakRank'] if m['peakRank'] else '--',
-                    's1t': '上周排名', 's2t': '在榜周数', 's3t': '最高排名',
+                    's1t': '前十次数', 's2t': '在榜周数', 's3t': '最高排名',
                 }) for index, m in enumerate(music_data,start=1)
             ][::-1]),
             'title': f'年榜 {issue['year']}年{sub_title[issue['week']]}',
