@@ -1,0 +1,8 @@
+<local:MyListItem
+    Margin="10,2"
+    Logo="pack://application:,,,/images/Blocks/Fabric.png"
+    Title="{title}"
+    Info="{info}"
+    EventType="打开帮助"
+    Type="Clickable"
+    EventData="{url}"/>
