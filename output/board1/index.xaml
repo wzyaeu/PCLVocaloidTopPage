@@ -30,6 +30,13 @@
             <local:MyListItem
     Margin="10,2"
     Logo="pack://application:,,,/images/Blocks/Fabric.png"
+    Title="周榜 第114期 2026-08-11"
+    Info="2026年第33周"
+    EventType="打开帮助"
+    Type="Clickable"
+    EventData="https://vocaloid.p.kaphia.qzz.io/board1/issue_114.json"/><local:MyListItem
+    Margin="10,2"
+    Logo="pack://application:,,,/images/Blocks/Fabric.png"
     Title="周榜 第113期 2026-08-04"
     Info="2026年第32周"
     EventType="打开帮助"
