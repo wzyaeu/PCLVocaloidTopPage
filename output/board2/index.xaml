@@ -30,6 +30,13 @@
             <local:MyListItem
     Margin="10,2"
     Logo="pack://application:,,,/images/Blocks/Fabric.png"
+    Title="传说榜 第74期 2026-08-13"
+    Info="2026年第33周"
+    EventType="打开帮助"
+    Type="Clickable"
+    EventData="https://vocaloid.p.kaphia.qzz.io/board2/issue_74.json"/><local:MyListItem
+    Margin="10,2"
+    Logo="pack://application:,,,/images/Blocks/Fabric.png"
     Title="传说榜 第73期 2026-08-06"
     Info="2026年第32周"
     EventType="打开帮助"
