@@ -16,7 +16,7 @@
                        FontSize="16"
                        VerticalAlignment="Center"
                        Foreground="{DynamicResource ColorBrush3}"
-                       Text="主页"/>
+                       Text="周榜 第115期 2026年第34周"/>
             <local:MyIconTextButton Margin="2"
                                     Height="35"
                                     VerticalAlignment="Center"
@@ -26,6 +26,30 @@
                                     Logo="M841.140212 512.013257c0 181.498884-147.641328 329.140212-329.140212 329.140212s-329.140212-147.641328-329.140212-329.140212c0-175.391505 137.999348-318.746696 311.068586-328.211305l0 99.641714c0 3.249345 1.749929 6.286578 4.571392 7.928622 1.428103 0.821022 3.000662 1.214162 4.571392 1.214162s3.143289-0.39314 4.571392-1.214162l237.569748-137.141755c2.821463-1.642044 4.571392-4.679277 4.571392-7.928622s-1.749929-6.286578-4.571392-7.928622l-237.569748-137.141755c-2.856206-1.642044-6.286578-1.642044-9.142784 0-2.821463 1.642044-4.571392 4.679277-4.571392 7.928622l0 101.499527C280.537631 120.195606 109.717518 296.300248 109.717518 512.013257c0 221.820389 180.462093 402.282482 402.282482 402.282482s402.282482-180.462093 402.282482-402.282482L841.140212 512.013257z"/>
         </StackPanel>
     </local:MyCard>
+    <local:MyCard Margin="0,4">
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <local:MyIconTextButton
+                Height="35"
+                Margin="0,8"
+                ColorType="Highlight"
+                VerticalAlignment="Center"
+                Text="榜期视频"
+                EventType="打开网页"
+                EventData="https://www.bilibili.com/video/None"
+                LogoScale="1"
+                Logo="M204.8 236.8A19.2 19.2 0 0 0 185.6 256v512c0 10.5984 8.6016 19.2 19.2 19.2h614.4a19.2 19.2 0 0 0 19.2-19.2V256A19.2 19.2 0 0 0 819.2 236.8H204.8z m0-64h614.4c45.9264 0 83.2 37.2736 83.2 83.2v512c0 45.9264-37.2736 83.2-83.2 83.2H204.8A83.2 83.2 0 0 1 121.6 768V256c0-45.9264 37.2736-83.2 83.2-83.2z M670.7712 485.0176a52.48 52.48 0 0 1-17.9712 71.9872l-195.7376 117.4016a52.48 52.48 0 0 1-79.4624-44.9536V394.5472a52.48 52.48 0 0 1 79.4624-44.9536L652.8 466.944c7.3728 4.4544 13.568 10.5984 17.9712 18.0224z m-229.1712-70.144v194.2016L603.392 512l-161.792-97.0752z"/>
+            <local:MyIconTextButton
+                Height="35"
+                Margin="0,8"
+                VerticalAlignment="Center"
+                Text="全部榜期"
+                EventType="打开帮助"
+                EventData="https://vocaloid.p.kaphia.qzz.io/board1/index.json"
+                LogoScale="1"
+                Logo="M917.044 572.14H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932z m0-314.525H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932zM153.198 931.597c-49.632 0-89.864-40.232-89.864-89.864s40.232-89.864 89.864-89.864 89.864 40.232 89.864 89.864-40.232 89.864-89.864 89.864z m0-314.525c-49.632 0-89.864-40.232-89.864-89.864 0-49.632 40.232-89.864 89.864-89.864s89.864 40.232 89.864 89.864c0 49.632-40.232 89.864-89.864 89.864z m0-314.525c-49.632 0-89.864-40.232-89.864-89.864s40.232-89.864 89.864-89.864 89.864 40.232 89.864 89.864-40.232 89.864-89.864 89.864z m224.66 494.254h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932z"/>
+        </StackPanel>
+    </local:MyCard>
     <Grid Margin="5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
@@ -33,9 +57,8 @@
         </Grid.ColumnDefinitions>
         <TextBlock FontSize="17"
                    FontWeight="Bold"
-                   VerticalAlignment="Center"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="最新周榜 第115期 2026-08-18"/>
+                   Text="榜单 2026-08-18"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -1003,145 +1026,5 @@
     </Grid>
 </local:MyCard>
     
-        <local:MyCard Margin="0,4">
-            <local:MyIconTextButton
-                ColorType="Highlight"
-                Height="35"
-                Margin="0,8"
-                VerticalAlignment="Center"
-                Text="完整TOP20榜单"
-                EventType="打开帮助"
-                EventData="https://vocaloid.p.kaphia.qzz.io/board1/issue_115.json"
-                LogoScale="1"
-                Logo="M917.044 572.14H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932z m0-314.525H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932zM153.198 931.597c-49.632 0-89.864-40.232-89.864-89.864s40.232-89.864 89.864-89.864 89.864 40.232 89.864 89.864-40.232 89.864-89.864 89.864z m0-314.525c-49.632 0-89.864-40.232-89.864-89.864 0-49.632 40.232-89.864 89.864-89.864s89.864 40.232 89.864 89.864c0 49.632-40.232 89.864-89.864 89.864z m0-314.525c-49.632 0-89.864-40.232-89.864-89.864s40.232-89.864 89.864-89.864 89.864 40.232 89.864 89.864-40.232 89.864-89.864 89.864z m224.66 494.254h539.186c24.816 0 44.932 20.116 44.932 44.932s-20.116 44.932-44.932 44.932H377.858c-24.816 0-44.932-20.116-44.932-44.932s20.116-44.932 44.932-44.932z"/>
-        </local:MyCard>
     </StackPanel>
-    <Grid Margin="5">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock FontSize="17"
-                   FontWeight="Bold"
-                   Foreground="{DynamicResource ColorBrush3}"
-                   Text="更多页面"/>
-        <Line X1="0"
-              Grid.Column="1"
-              Y1="0"
-              X2="1000"
-              Y2="0"
-              StrokeThickness="2"
-              VerticalAlignment="Center"
-              Stroke="{DynamicResource ColorBrush3}"
-              Margin="10,0"/>
-    </Grid>
-    <local:MyCard Margin="0,5">
-        <StackPanel Margin="0,10">
-            <local:MyListItem Margin="10,2"
-                              Logo="pack://application:,,,/images/Blocks/Anvil.png"
-                              Title="周榜"
-                              Info="周榜榜单目录"
-                              EventType="打开帮助"
-                              Type="Clickable"
-                              EventData="https://vocaloid.p.kaphia.qzz.io/board1/index.json"/>
-            <local:MyListItem Margin="10,2"
-                              Logo="pack://application:,,,/images/Blocks/Anvil.png"
-                              Title="传说榜"
-                              Info="传说榜榜单目录"
-                              EventType="打开帮助"
-                              Type="Clickable"
-                              EventData="https://vocaloid.p.kaphia.qzz.io/board2/index.json"/>
-            <local:MyListItem Margin="10,2"
-                              Logo="pack://application:,,,/images/Blocks/Anvil.png"
-                              Title="年榜"
-                              Info="年榜榜单目录"
-                              EventType="打开帮助"
-                              Type="Clickable"
-                              EventData="https://vocaloid.p.kaphia.qzz.io/board3/index.json"/>
-        </StackPanel>
-    </local:MyCard>
-    <Grid Margin="5">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock FontSize="17"
-                   FontWeight="Bold"
-                   Foreground="{DynamicResource ColorBrush3}"
-                   Text="关于主页"/>
-        <Line X1="0"
-              Grid.Column="1"
-              Y1="0"
-              X2="1000"
-              Y2="0"
-              StrokeThickness="2"
-              VerticalAlignment="Center"
-              Stroke="{DynamicResource ColorBrush3}"
-              Margin="10,0"/>
-    </Grid>
-    <local:MyCard Margin="0,5">
-        <StackPanel>
-            <Border Background="{DynamicResource ColorBrush4}"
-                    CornerRadius="5,5,0,0"
-                    Height="100">
-                <StackPanel Margin="16"
-                            HorizontalAlignment="Center">
-                    <TextBlock FontSize="32"
-                               Foreground="{DynamicResource ColorBrush7}"
-                               Text="Vocaloid 术力口榜单"
-                               HorizontalAlignment="Center"/>
-                    <TextBlock Margin="2,4,0,0"
-                               FontSize="18"
-                               Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 ee764bdf"
-                               HorizontalAlignment="Center"/>
-                </StackPanel>
-            </Border>
-            <StackPanel  Margin="5">
-                <StackPanel  Margin="1"
-                             Orientation="Horizontal"
-                             HorizontalAlignment="Center">
-
-                    <local:MyIconTextButton
-                        ColorType="Highlight"
-                        Margin="2"
-                        Height="35"
-                        VerticalAlignment="Center"
-                        Text="Github主仓库"
-                        EventType="打开网页"
-                        EventData="https://github.com/wzyaeu/PCLVocaloidTopPage"
-                        LogoScale="1"
-                        Logo="M512 12.64c-282.752 0-512 229.216-512 512 0 226.208 146.72 418.144 350.144 485.824 25.6 4.736 35.008-11.104 35.008-24.64 0-12.192-0.48-52.544-0.704-95.328-142.464 30.976-172.512-60.416-172.512-60.416-23.296-59.168-56.832-74.912-56.832-74.912-46.464-31.776 3.52-31.136 3.52-31.136 51.392 3.616 78.464 52.768 78.464 52.768 45.664 78.272 119.776 55.648 148.992 42.56 4.576-33.088 17.856-55.68 32.512-68.48-113.728-12.928-233.28-56.864-233.28-253.024 0-55.904 20-101.568 52.768-137.44-5.312-12.896-22.848-64.96 4.96-135.488 0 0 43.008-13.76 140.832 52.48 40.832-11.36 84.64-17.024 128.16-17.248 43.488 0.192 87.328 5.888 128.256 17.248 97.728-66.24 140.64-52.48 140.64-52.48 27.872 70.528 10.336 122.592 5.024 135.488 32.832 35.84 52.704 81.536 52.704 137.44 0 196.64-119.776 239.936-233.792 252.64 18.368 15.904 34.72 47.04 34.72 94.816 0 68.512-0.608 123.648-0.608 140.512 0 13.632 9.216 29.6 35.168 24.576 203.328-67.776 349.856-259.616 349.856-485.76 0-282.784-229.248-512-512-512z"/>
-                    <local:MyIconTextButton
-                        Margin="2"
-                        Height="35"
-                        VerticalAlignment="Center"
-                        Text="查看最新构建版本"
-                        EventType="打开网页"
-                        EventData="https://github.com/wzyaeu/PCLVocaloidTopPage/blob/main/output/build_info.md#最新构建"
-                        LogoScale="1"
-                        Logo="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z m42.666667-486.869333V298.538667C554.666667 275.328 535.552 256 512 256c-23.722667 0-42.666667 19.029333-42.666667 42.538667v256.256a41.984 41.984 0 0 0 12.202667 29.866666l121.258667 121.258667a42.368 42.368 0 0 0 60.032-0.298667 42.666667 42.666667 0 0 0 0.298666-60.032L554.666667 537.130667z"/>
-                </StackPanel>
-            </StackPanel>
-        </StackPanel>
-    </local:MyCard>
-    <local:MyCard Margin="0,5"
-                  Title="特别鸣谢">
-        <StackPanel Margin="15,40,15,15">
-            <local:MyListItem
-                Margin="2"
-                Title="BiliBoard术力口周榜"
-                Info="提供了排名、视频数据等信息！"
-                EventType="打开网页"
-                EventData="https://voca.wiki/Biliboard%E6%9C%AF%E5%8A%9B%E5%8F%A3%E5%91%A8%E6%A6%9C"
-                Type="Clickable"/>
-            <local:MyListItem
-                Margin="2"
-                Title="Wzyaeu / Kaphia"
-                Info="主页制作团"
-                EventType="打开帮助"
-                EventData="https://p.kaphia.qzz.io/personalpage.json"
-                Type="Clickable"/>
-        </StackPanel>
-    </local:MyCard>
 </StackPanel>
