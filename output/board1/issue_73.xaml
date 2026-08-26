@@ -58,7 +58,7 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="榜单 2025-10-28"/>
+                   Text="榜单 2025-10-29"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -458,197 +458,6 @@
              CornerRadius="4">
         <Border.Background>
             <ImageBrush
-                ImageSource="https://biliboard.uk/api/provider/biliimg/bvid/BV1LwnyzpExN"
-                Stretch="UniformToFill"/>
-        </Border.Background>
-        <Border.Effect>
-            <BlurEffect Radius="10"
-                        RenderingBias="Performance"/>
-        </Border.Effect>
-    </Border>
-    <Border
-        CornerRadius="4"
-        Background="#000000"
-        Opacity="0.5"
-        Margin="10">
-        <Border.Effect>
-            <BlurEffect Radius="10"
-                        RenderingBias="Performance"/>
-        </Border.Effect>
-    </Border>
-    <Grid
-        Margin="10"
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-        <local:MyImage
-            Height="140"
-            Source="https://biliboard.uk/api/provider/biliimg/bvid/BV1LwnyzpExN"/>
-        <Border
-            CornerRadius="4"
-            Background="#000000"
-            Opacity="0.3">
-        </Border>
-    </Grid>
-    <Grid Margin="10">
-        <Grid Margin="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
-            <StackPanel
-                VerticalAlignment="Bottom"
-                HorizontalAlignment="Left">
-                <StackPanel
-                    Grid.Column="1" Margin="0,25,0,0">
-                    <TextBlock
-                        Margin="2,0,0,0"
-                        FontSize="25"
-                        FontFamily="Microsoft JhengHei UI"
-                        FontWeight="Bold"
-                        TextWrapping="Wrap"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        ToolTip="テセウスの心臓"
-                        Text="テセウスの心臓"/>
-                    <TextBlock
-                        Margin="3,-6,0,0"
-                        FontSize="15"
-                        FontFamily="Noto Sans SC Medium"
-                        Opacity="0.9"
-                        TextWrapping="Wrap"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        ToolTip="忒修斯的心脏 | Veil feat. 初音ミク"
-                        Text="忒修斯的心脏 | Veil feat. 初音ミク"/>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel
-                VerticalAlignment="Bottom"
-                HorizontalAlignment="Right"
-                        Orientation="Horizontal"
-                Grid.Column="1">
-                <Border Background="#e6b54e"
-        CornerRadius="25,0,0,25"
-        Height="50">
-    <StackPanel Margin="15,3,5,3"
-                Orientation="Horizontal">
-        <StackPanel  Margin="3,0">
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="25"
-                FontWeight="Bold"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="#18"/>
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="13"
-                Foreground="{DynamicResource ColorBrush8}"
-                Text="新曲"/>
-        </StackPanel>
-    </StackPanel>
-</Border>
-                <Border Background="{DynamicResource ColorBrush4}"
-                        CornerRadius="0,25,25,0"
-                        Height="50">
-                    <StackPanel Margin="5,3,15,3"
-                                Orientation="Horizontal">
-                        <StackPanel  Margin="3,0">
-                            <TextBlock
-                                HorizontalAlignment="Center"
-                                FontSize="26"
-                                FontWeight="Bold"
-                                Foreground="{DynamicResource ColorBrush8}"
-                                Text="--"/>
-                            <TextBlock
-                                HorizontalAlignment="Center"
-                                FontSize="12"
-                                Foreground="{DynamicResource ColorBrush6}"
-                                Text="上周排名"/>
-                        </StackPanel>
-                        <StackPanel  Margin="3,0">
-                            <TextBlock
-                                HorizontalAlignment="Center"
-                                FontSize="26"
-                                FontWeight="Bold"
-                                Foreground="{DynamicResource ColorBrush8}"
-                                Text="1"/>
-                            <TextBlock
-                                HorizontalAlignment="Center"
-                                FontSize="12"
-                                Foreground="{DynamicResource ColorBrush6}"
-                                Text="在榜周数"/>
-                        </StackPanel>
-                        <StackPanel  Margin="3,0">
-                            <Border Background="{DynamicResource ColorBrush5}"
-                                    CornerRadius="15"
-                                    Height="30">
-                                <TextBlock
-                                    HorizontalAlignment="Center"
-                                    FontSize="26"
-                                    FontWeight="Bold"
-                                    Foreground="{DynamicResource ColorBrush8}"
-                                    Text="18"/>
-                            </Border>
-                            <TextBlock
-                                HorizontalAlignment="Center"
-                                FontSize="12"
-                                Foreground="{DynamicResource ColorBrush6}"
-                                Text="最高排名"/>
-                        </StackPanel>
-                    </StackPanel>
-                </Border>
-            </StackPanel>
-        </Grid>
-        <StackPanel VerticalAlignment="Top"
-                    HorizontalAlignment="Right"
-                    Margin="0,5,10,0">
-            <StackPanel Orientation="Horizontal">
-                <Border Background="{DynamicResource ColorBrush4}"
-                        CornerRadius="10"
-                        Height="24">
-                    <TextBlock
-                        VerticalAlignment="Center"
-                        FontSize="15"
-                        Margin="6,0"
-                        FontWeight="Bold"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        Text="Rate: 无"
-                        ToolTip="本曲目分数与上一期分数的增长率"/>
-                </Border>
-                <Border Background="{DynamicResource ColorBrush4}"
-                        CornerRadius="10"
-                        Height="24">
-                    <TextBlock
-                        VerticalAlignment="Center"
-                        FontSize="15"
-                        Margin="6,0"
-                        FontWeight="Bold"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        Text="More: 无"
-                        ToolTip="本曲目分数与下一名分数的增长率"/>
-                </Border>
-                <StackPanel Orientation="Horizontal"
-                            ToolTip="播放 48139&#xa;点赞 11368&#xa;投币 1927&#xa;收藏 5757">
-                    <TextBlock
-                        FontSize="25"
-                        FontFamily="Verdana Bold Italic"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        Text="22"/>
-                    <TextBlock
-                        FontSize="25"
-                        FontFamily="Verdana Bold Italic"
-                        Foreground="{DynamicResource ColorBrush8}"
-                        Opacity="0.7"
-                        Text="6408"/>
-                </StackPanel>
-            </StackPanel>
-        </StackPanel>
-    </Grid>
-</local:MyCard>
-    
-<local:MyCard Margin="0,4">
-    <Border  Margin="10"
-             CornerRadius="4">
-        <Border.Background>
-            <ImageBrush
                 ImageSource="https://biliboard.uk/api/provider/biliimg/bvid/BV1nCsEzAEc4"
                 Stretch="UniformToFill"/>
         </Border.Background>
@@ -813,7 +622,7 @@
                         Margin="6,0"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush8}"
-                        Text="More: +6.20%"
+                        Text="More: 无"
                         ToolTip="本曲目分数与下一名分数的增长率"/>
                 </Border>
                 <StackPanel Orientation="Horizontal"

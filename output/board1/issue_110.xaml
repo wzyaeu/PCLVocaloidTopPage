@@ -58,7 +58,7 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="榜单 2026-07-14"/>
+                   Text="榜单 2026-07-15"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -1031,7 +1031,7 @@
              CornerRadius="4">
         <Border.Background>
             <ImageBrush
-                ImageSource="https://biliboard.uk/api/provider/biliimg/bvid/BV15LMi67EHV"
+                ImageSource="https://biliboard.uk/api/provider/biliimg/bvid/BV1JrgA6MEMG"
                 Stretch="UniformToFill"/>
         </Border.Background>
         <Border.Effect>
@@ -1055,7 +1055,7 @@
         VerticalAlignment="Center">
         <local:MyImage
             Height="140"
-            Source="https://biliboard.uk/api/provider/biliimg/bvid/BV15LMi67EHV"/>
+            Source="https://biliboard.uk/api/provider/biliimg/bvid/BV1JrgA6MEMG"/>
         <Border
             CornerRadius="4"
             Background="#000000"

@@ -82,8 +82,6 @@ def mainpage():
     except:
         print('mainpage-获取api数据')
         music_data = requests.get(f'https://biliboard.uk/api/public/boards/1/issues/{b1_issues[0]['issue_id']}/rankings').json()[-5:]
-        with open(f'data/b1_issues/{b1_issues[0]['issue_id']}.json','w',encoding='utf-8') as f:
-            json.dump(music_data, f, ensure_ascii=False)
 
     print('mainpage-构建页面')
     output = replaces(templates['mainpage'],{
@@ -143,6 +141,7 @@ def b1issues():
         except:
             print('b1issues-获取api数据')
             music_data = requests.get(f'https://biliboard.uk/api/public/boards/1/issues/{issue['issue_id']}/rankings').json()
+            print('b1issues-保存api数据')
             with open(f'data/b1_issues/{issue['issue_id']}.json','w',encoding='utf-8') as f:
                 json.dump(music_data, f, ensure_ascii=False)
 
@@ -365,13 +364,10 @@ def init():
     OUTPUT_PATH = os.path.join(BASE_PATH,'output')
     print('init-获取周榜数据')
     b1_issues = requests.get('https://biliboard.uk/api/public/boards/1/issues').json()
-    b1_issues = [{**i, 'issue_id':str(i['issue_id'])} for i in b1_issues]
     print('init-获取传说榜数据')
     b2_issues = requests.get('https://biliboard.uk/api/public/boards/2/issues').json()
-    b2_issues = [{**i, 'issue_id':str(i['issue_id'])} for i in b2_issues]
     print('init-获取年榜数据')
     b3_issues = requests.get('https://biliboard.uk/api/public/boards/3/issues').json()
-    b3_issues = [{**i, 'issue_id':str(i['issue_id'])} for i in b3_issues]
     shutil.rmtree(OUTPUT_PATH,ignore_errors=True)
     os.makedirs(OUTPUT_PATH,exist_ok=True)
     os.makedirs(os.path.join(BASE_PATH,'data'),exist_ok=True)
