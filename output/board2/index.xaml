@@ -30,22 +30,14 @@
             <local:MyListItem
     Margin="10,2"
     Logo="pack://application:,,,/images/Blocks/Fabric.png"
-<<<<<<< HEAD
     Title="传说榜 第75期 2026-08-21"
-=======
-    Title="传说榜 第75期 2026-08-20"
->>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
     Info="2026年第34周"
     EventType="打开帮助"
     Type="Clickable"
     EventData="https://vocaloid.p.kaphia.qzz.io/board2/issue_75.json"/><local:MyListItem
     Margin="10,2"
     Logo="pack://application:,,,/images/Blocks/Fabric.png"
-<<<<<<< HEAD
     Title="传说榜 第74期 2026-08-14"
-=======
-    Title="传说榜 第74期 2026-08-13"
->>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
     Info="2026年第33周"
     EventType="打开帮助"
     Type="Clickable"

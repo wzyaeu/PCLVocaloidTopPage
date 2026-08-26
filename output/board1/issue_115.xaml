@@ -58,11 +58,7 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
-<<<<<<< HEAD
                    Text="榜单 2026-08-19"/>
-=======
-                   Text="榜单 2026-08-18"/>
->>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -1030,7 +1026,6 @@
     </Grid>
 </local:MyCard>
     
-<<<<<<< HEAD
 <local:MyCard Margin="0,4">
     <Border  Margin="10"
              CornerRadius="4">
@@ -3896,7 +3891,5 @@
     </Grid>
 </local:MyCard>
     
-=======
->>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
     </StackPanel>
 </StackPanel>
