@@ -58,7 +58,11 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
+<<<<<<< HEAD
                    Text="榜单 2026-08-21"/>
+=======
+                   Text="榜单 2026-08-20"/>
+>>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
         <Line X1="0"
               Grid.Column="1"
               Y1="0"

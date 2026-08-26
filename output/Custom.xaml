@@ -35,7 +35,11 @@
                    FontWeight="Bold"
                    VerticalAlignment="Center"
                    Foreground="{DynamicResource ColorBrush3}"
+<<<<<<< HEAD
                    Text="最新周榜 第115期 2026-08-19"/>
+=======
+                   Text="最新周榜 第115期 2026-08-18"/>
+>>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
@@ -1093,7 +1097,11 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
+<<<<<<< HEAD
                                Text="By wzyaeu/kaphia | 构建版本 675d7c33"
+=======
+                               Text="By wzyaeu/kaphia | 构建版本 04f6fa80"
+>>>>>>> 4541c610fe8ea5448daf3c70b6da1457626315ff
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
