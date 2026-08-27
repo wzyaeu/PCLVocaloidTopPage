@@ -58,7 +58,7 @@
         <TextBlock FontSize="17"
                    FontWeight="Bold"
                    Foreground="{DynamicResource ColorBrush3}"
-                   Text="榜单 2025-11-28"/>
+                   Text="榜单 2025-11-27"/>
         <Line X1="0"
               Grid.Column="1"
               Y1="0"
