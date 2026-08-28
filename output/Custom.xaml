@@ -1093,7 +1093,7 @@
                     <TextBlock Margin="2,4,0,0"
                                FontSize="18"
                                Foreground="{DynamicResource ColorBrush6}"
-                               Text="By wzyaeu/kaphia | 构建版本 6bfab8a1"
+                               Text="By wzyaeu/kaphia | 构建版本 d95982ed"
                                HorizontalAlignment="Center"/>
                 </StackPanel>
             </Border>
